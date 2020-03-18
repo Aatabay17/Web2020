@@ -1,0 +1,8 @@
+<h1>Atabay Alim 18BD110323</h1>
+<ul class="tasks">
+    <li *ngFor="let task of tasks">
+        <a routerLink="/tasks/{{task.id}}">
+            <span class="badge">{{task.id}}</span> {{task.title}}
+        </a>
+    </li>
+</ul>

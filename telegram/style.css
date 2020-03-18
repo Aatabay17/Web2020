@@ -1,0 +1,125 @@
+.row{
+	position: relative;
+	background-color: rgb(86, 130, 163);
+	height: 226px;
+	padding-top: 120px;
+}
+.first-col{
+	padding-left: 37%;
+}
+.second-col{
+	/*padding-left: 25em;*/
+}
+
+.first-col{
+	color: #fff;
+    line-height: 20px;
+    font: 10px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
+    display: flex; 
+    vertical-align: center;
+    /*justify-content: space-between;*/
+}
+.first-col img{
+	margin-bottom: 15px;
+}
+.second-col{
+	color:#fff;
+    line-height: 20px;
+    font: 5px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	display: flex; 
+    vertical-align: center;
+}
+.teleg-h6{
+	margin-left: 5px;
+}
+.next-h6{
+	margin-left: 180px;
+}
+.second-col img{
+	margin-left: 10px;
+	margin-top: 4px;
+}
+.main{
+	position: relative;
+	background-color: #fff;
+	margin-left: 32.3em;
+}
+   
+ 
+.box h1{
+	padding-left: 0;
+	font-size:15px;
+    font-weight: bold;
+    color: black;
+}
+.box{
+	top:-60px;
+	padding: 50px;
+	width: 404px;
+	height: 339.6px;
+	background-color:#fff;
+	position: absolute;
+	left: 0;
+}
+.box p{
+	font-family:Tahoma, sans-serif, Arial, Helvetica;
+	font-size:13px;
+	color:rgb(153, 153, 153);
+
+}
+.table-1{
+	padding-bottom: 5px;
+	border-bottom-width: 0.2px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+   border-bottom-color: rgb(153, 153, 153);  /* Цвет линии внизу */
+   margin-bottom: 30px;
+}
+
+.num-1,.num-2{
+	border-bottom-width: 0.2px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: rgb(153, 153, 153); /* Цвет линии внизу */
+}
+/*.num-1{
+	border-color: black;
+}*/
+.num-2{
+	 font-size: 16px;
+    color:rgb(153, 153, 153);
+}
+.num-1,.num-2{
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.num-2{
+	margin-left: 10px;
+	width: 250px;
+}
+
+.footer{
+	position: relative;
+    margin-left: -60px;
+	margin-top: 270px;
+}
+.footer p{
+    color: #84a2bc; 
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 25px;
+    text-align: center;
+}
+.footer a{
+    color: red; 
+ 	font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: 700;
+   margin-left: 47%; 
+   margin-bottom: 30px;
+    display: inline-block;
+}
+body{
+
+	background-color: #e7ebf0 !important;
+}

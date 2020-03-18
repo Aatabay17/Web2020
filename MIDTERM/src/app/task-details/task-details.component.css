@@ -1,0 +1,35 @@
+.task {
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(190, 170, 170);
+    border-radius: 10px;
+}
+.task__id{
+    margin-left: 164px;
+    font-size: 30px;
+}
+.task__title {
+    text-align: center;
+}
+.task__description {
+    text-align: center;
+    font-size: 30px;
+}
+div {
+    margin-bottom: 10px;
+}   
+.input-box label{
+    font-size: 30px;
+}
+.input-box{
+    margin-left: 160px;
+}
+.btn {
+    width: 100px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgb(70, 17, 17);
+    border-radius: 4px;
+    margin-left: 300px;
+}

@@ -1,0 +1,25 @@
+<h3>Task-Detail</h3>
+<div class="task" *ngIf="task">
+    <h2 class="task__title">{{task.title | uppercase}}</h2>
+    <p class="task__description">{{ task.description }}</p>
+    <p class="task__description" *ngIf="task.status">Status of a task</p>
+    <div class="task__id"><span>Id: </span>{{task.id}}</div>
+    <div>
+      <div class="input-box">
+        <label>Title:
+          <input [(ngModel)]="task.title" placeholder="title"/>
+        </label>
+      </div>
+      <div class="input-box">
+        <label>Description:
+          <input [(ngModel)]="task.description" placeholder="description"/>
+        </label>
+      </div>
+      <div class="input-box">
+        <label>Status:
+          <input type="text" [(ngModel)]="task.status" placeholder="STATUS">
+        </label>
+      </div>
+    </div>
+    <button class="btn" (click)="goBack()">Back</button>
+</div>

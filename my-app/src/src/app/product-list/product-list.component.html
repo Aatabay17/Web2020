@@ -1,0 +1,32 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+
+	<h3>
+		<a [title]="product.name + ' details'"
+			href="https://aliexpress.ru/item/4000421618850.html?spm=a2g0o.productlist.0.0.47153cba4DlpcY&algo_pvid=74edcfc6-65fb-4a1c-a994-56913c7ea3ef&algo_expid=74edcfc6-65fb-4a1c-a994-56913c7ea3ef-11&btsid=417ff4f0-2956-4be1-a3a6-75743323311d&ws_ab_test=searchweb0_0,searchweb201602_8,searchweb201603_53">
+			{{ product.name }}
+		</a>
+	</h3>
+
+	<p *ngIf="product.description">
+		Description: {{ product.description }}
+	</p>
+
+	<p *ngIf="product.rating">
+		Rating: {{ product.rating }}
+	</p>
+
+	<button (click)="share()">
+    Share
+  </button>
+
+	<app-product-alerts [product]="product">
+	</app-product-alerts>
+
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

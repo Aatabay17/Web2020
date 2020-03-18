@@ -1,0 +1,116 @@
+.main_h2{
+	width: 50%;
+/*	padding:0;*/
+	padding-top: 180px;
+	padding-left: 63px;
+	margin: 0;
+}
+.main_h2 h2{
+	color: #1877F2;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 60px ;
+	padding: 0;
+}
+.main_p{
+	font-size: 28px;
+	line-height: 32px;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.loginbutton{
+	color:white;
+	background-color: #1877F2;
+	padding-left:16px;
+	text-align:center;
+	width: 360px;
+    line-height: 55px;
+    border: none;
+    border-radius: 6px;
+    font-weight:700;
+    font-size:20px;
+    font-family:Helvetica, Arial, sans-serif;
+}
+.forgot_acc{
+	color:#1877F2;
+}
+.forg_acc{
+	text-align: center;
+	padding-right: 10px;
+}
+.or{
+	color: #828282;
+	text-align: center;
+	padding-right: 10px;
+}
+.createacc{
+	color: white;
+	background-color: #42b72a;
+	border-color: #42b72a;
+	border: 1px solid;
+    border-radius: 6px;
+    font-size:17px;
+    font-weight: 700;
+    line-height:48px;
+    width:200px;
+}
+.createacc1{
+	text-align: center;
+	padding-right: 10px;
+}
+.log{
+	width: 50%;
+	flex-direction: row;
+	padding-top: 130px;
+	padding-right: 150px;
+}
+.login{
+	font-size:15px;
+}
+.log_pass{
+	padding-left: 80%;
+	display: inline-block;
+}
+.lloginbutton{
+	border: 1px solid;
+	border-radius: 6px;
+	font-size: 17px;
+    padding: 14px 16px;
+    width: 360px;
+	border: 1px solid #dddfe2;
+}
+.createpage{
+	color: black;
+}
+.password{
+	border: 1px solid #dddfe2;
+	border-radius: 6px;
+	font-size: 17px;
+    padding: 14px 16px;
+    width: 360px;
+}
+footer{
+	margin-top: 70px;
+}
+.footer-first{
+	margin-left: 65px;
+	display: inline;
+	font-family: inherit
+	font-size: 12px;
+    border-bottom-width: 1px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: #606770; /* Цвет линии внизу */
+    padding-bottom: 20px;
+}
+.footer-first a{
+	padding-right: 28px;
+}
+.footer-second{
+	margin-top: 40px;
+	margin-left: 65px;
+}
+.footer-second a{
+    color: #606770;
+    padding-right: 5px;
+}
