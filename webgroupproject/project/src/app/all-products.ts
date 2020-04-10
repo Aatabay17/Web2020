@@ -4,7 +4,7 @@ import { Collection } from "./collection";
 import { Shoes } from "./shoes";
 import { Accessories } from "./accessories";
 
-export const products: Product[] = [
+export const PRODUCTS: Product[] = [
 ]
 Shoes.forEach(addProduct);
 Clothing.forEach(addProduct);
@@ -12,5 +12,5 @@ Collection.forEach(addProduct);
 Accessories.forEach(addProduct);
 
 function addProduct(product:Product):void {
-    products.push(product);
+    PRODUCTS.push(product);
 }

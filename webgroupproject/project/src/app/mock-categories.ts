@@ -5,7 +5,7 @@ import { Collection } from "./collection";
 import { Shoes } from "./shoes";
 import { Accessories } from "./accessories";
 
-export const categories: Category[] = [
+export const CATEGORIES: Category[] = [
     {
         id: 1, 
         name: 'SHOES',
