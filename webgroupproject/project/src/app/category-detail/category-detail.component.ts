@@ -42,7 +42,7 @@ export class CategoryDetailComponent implements OnInit {
   }
   add(name: string, id: number, description: string, price: number, img: string, url: string): void {
     name = name.trim();
-    if (!name&&!id&&!description&&!price&&!img&&!url) { return; }
+    if (!name||!id||!description||!price||!img||!url) { return; }
     this.categoriesService.addProduct({ name, id, description, price, img, url } as Product)
       .subscribe(product => {
         this.products.push(product);
