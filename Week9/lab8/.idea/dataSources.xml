@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="44159374-fbee-4f0f-b38f-106cb13c5686">
+    <data-source source="LOCAL" name="db" uuid="5a709d9c-fbf1-4713-9265-80daf790e450">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Аскар\Desktop\WebDevelopment\WD2020\Week9\lab8\db.sqlite3</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="db [2]" uuid="bc75deb6-9d12-4cff-baa5-11887d9326d2">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\user\Desktop\webspring2020\Week9\lab8\db.sqlite3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
+      <jdbc-url>jdbc:sqlite:C:\Users\user\Desktop\webspring2020\week9\lab8\db.sqlite3</jdbc-url>
     </data-source>
   </component>
 </project>

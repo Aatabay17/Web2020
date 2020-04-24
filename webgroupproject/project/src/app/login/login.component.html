@@ -1,17 +1,34 @@
 <form class="form">
-    <div>
-        <label>
-            <p class="label">Username</p><input class="input" #userName type="text" name="username"  #user>
-        </label>
-    </div>
-    <div>
-        <label>
-            <p class="label">Password</p><input class="input" #passWord type="password" name="password">
-        </label>
-        
-    </div>
-    <div>
-        <button class = "btn"
-        (click)="loginUser(userName.value, passWord.value)">Log In</button>
-    </div>
+   <div class="form-block">
+                <!-- <img src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_1690,c_limit/caf172c7-33ec-44e1-9d71-a5ed419014ea/nike-just-do-it.png" style="width: 100%; height: 100%;"> -->
+                <p class="sign-paragraph">Where All Athletes<br> Belong</p>
+                
+                    <div class="sign-in-block">
+                        <!-- <p style="font-size: 16px; font-weight: 400;">Access to the very best Nike products, inspiration and community.</p> -->
+                        <input class="input" #userName type="text" name="username" placeholder="login" #user>
+                        <input class="input" #passWord type="password" placeholder="password" name="password">
+                        <button class = "btn"(click)="loginUser(userName.value, passWord.value)">Log In</button>
+                    </div> 
+                
+
+       <!-- <h3 style="margin-left: 30px; color: rgb(2, 2, 2); font-size: 25px; font-weight: 500;">
+        Login to view products
+        </h3>
+        <div>
+            <label>
+                <input class="input" #userName type="text" name="username" placeholder="login" #user>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input class="input" #passWord type="password" placeholder="password" name="password">
+            </label>
+            
+        </div>
+        <div>
+            <button class = "btn"
+            (click)="loginUser(userName.value, passWord.value)">Log In</button>
+        </div> -->
+   </div>
+   
 </form>
